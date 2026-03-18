@@ -22,5 +22,5 @@ jobs:
         with:
           push: true
           tags: |
-            ghcr.io/${{ github.repository }}:${{ steps.meta.outputs.TAG }}
-            ghcr.io/${{ github.repository }}:latest
+            ghcr.io/ba10dz/tp_docker:${{ steps.meta.outputs.TAG }}
+            ghcr.io/ba10dz/tp_docker:latest
