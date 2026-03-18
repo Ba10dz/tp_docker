@@ -32,5 +32,5 @@ jobs:
         with:
           push: true
           tags: |
-            ghcr.io/${{ github.repository }}:latest
-            ghcr.io/${{ github.repository }}:${{ github.sha }}
+            ghcr.io/ba10dz/tp_docker:latest
+            ghcr.io/ba10dz/tp_docker:${{ github.sha }}
